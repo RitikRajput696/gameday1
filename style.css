@@ -159,4 +159,22 @@ input {
   #lower-logo {
     grid-template-columns: repeat(3, 1fr);
   }
+  .main-head h3 {
+    margin: 1.5rem 0;
+  }
+  .main-logo {
+    margin: 1.5rem 0;
+  }
+  #lower-logo {
+    top: 2rem;
+  }
+  /* .form-container {
+    top: 1.5rem;
+  } */
+  .form-header {
+    padding-top: 1.5rem;
+  }
+  .form-text {
+    margin: 1.5rem auto;
+  }
 }
