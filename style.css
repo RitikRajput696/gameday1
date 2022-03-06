@@ -114,4 +114,17 @@ input {
     display: flex !important;
     flex-direction: column !important;
   }
+  main {
+    display: none;
+  }
+  body {
+    background-color: black;
+  }
+  footer {
+    max-width: 60rem !important;
+    position: static !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    row-gap: 2rem;
+  }
 }
