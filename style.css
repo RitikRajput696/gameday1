@@ -108,7 +108,9 @@ input {
 .form-text-below {
   margin: 1.5rem 0 1rem 0;
 }
-
+.mobo-footer {
+  display: none;
+}
 @media (max-width: 1000px) {
   .grid-container {
     display: flex !important;
@@ -118,18 +120,23 @@ input {
     display: none;
   }
   body {
-    background-color: black;
+    background-color: rgb(4, 26, 2);
   }
   footer {
-    position: static !important;
-    background-color: red;
-    max-width: 40rem !important;
-
-    display: flex !important;
-
+    display: none !important;
+  }
+  .mobo-footer {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
-    flex-wrap: wrap !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    row-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 710px) {
+  footer {
+    display: none !important;
   }
 }
