@@ -48,6 +48,7 @@ main {
   max-width: 700px;
 }
 .main-head h3 {
+  text-align: center;
   font-size: 14px;
   max-width: 890px;
 }
@@ -119,8 +120,15 @@ input {
   main {
     display: none;
   }
+  .main-head {
+    color: #000;
+  }
   body {
     background-color: rgb(4, 26, 2);
+  }
+  #lower-logo {
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
   }
   footer {
     display: none !important;
@@ -138,5 +146,8 @@ input {
 @media (max-width: 710px) {
   footer {
     display: none !important;
+  }
+  #lower-logo {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
