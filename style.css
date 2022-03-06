@@ -124,9 +124,6 @@ input {
   .main-head {
     color: #000;
   }
-  body {
-    background-color: rgb(4, 26, 2);
-  }
   #lower-logo {
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -164,13 +161,25 @@ input {
   }
   .main-logo {
     margin: 1.5rem 0;
+    left: 5rem !important;
   }
   #lower-logo {
     top: 2rem;
   }
-  /* .form-container {
-    top: 1.5rem;
-  } */
+  .upper-logo {
+    max-width: 22.6rem !important;
+    transform: translateX(-0.5rem);
+  }
+  .upper-logo > i {
+    width: 3.3rem !important;
+  }
+  .league-logo {
+    width: 1.8rem !important;
+  }
+
+  .nhl {
+    right: 7rem !important;
+  }
   .form-header {
     padding-top: 1.5rem;
   }
