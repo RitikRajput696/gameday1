@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-height: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  filter: grayscale(70%);
+  /* background-attachment: fixed; */
+}
+main::before {
+  position: absolute;
+  top: 0;
+  content: "";
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  width: 100%;
+}
+main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  max-height: 100vh;
+}
+.main-head {
+  min-height: 3rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  position: relative;
+  z-index: 99;
+}
+.main-head h1 {
+  text-align: center;
+  max-width: 700px;
+}
+.main-head h3 {
+  font-size: 14px;
+  max-width: 890px;
+}
+
+/* form styling  */
+.form-container {
+  max-width: 21rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-text {
+  position: relative;
+  z-index: 99;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem 0.8rem;
+  font-size: 0.9rem;
+}
+.form-header {
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  text-transform: uppercase;
+  font-size: 2.7rem;
+}
+input {
+  height: 2.5rem;
+  width: 100%;
+  text-indent: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.email-btn-container {
+  margin: 1rem auto 0 0;
+  position: relative;
+  /* background-color: red; */
+  width: 19rem;
+}
+.email-btn {
+  background-color: #0b40b3;
+  color: white;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.4rem;
+  padding: 8px 10px;
+  min-width: 5rem;
+  border: none;
+  border-radius: 5px;
+}
+.form-text-below {
+  margin: 1.5rem 0 1rem 0;
+}
+
+@media (max-width: 1440px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

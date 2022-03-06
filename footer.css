@@ -1,0 +1,38 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  min-height: 5rem;
+  min-width: 1000px;
+  /* border: 1px solid red; */
+  border-top: 1px dotted #fff;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+.footer-item {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 15rem;
+}
+.footer-item p {
+  padding-left: 0.5rem;
+  max-width: 7rem;
+  font-size: 13px;
+  color: rgb(202, 202, 202);
+}
+svg {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: rgb(202, 202, 202);
+}
