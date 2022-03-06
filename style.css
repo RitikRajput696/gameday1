@@ -117,6 +117,7 @@ input {
     display: flex !important;
     flex-direction: column !important;
   }
+
   main {
     display: none;
   }
@@ -144,6 +145,14 @@ input {
   }
 }
 @media (max-width: 710px) {
+  .bg-img {
+    display: none;
+  }
+  body {
+    background: url(./stadium_lights.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   footer {
     display: none !important;
   }
