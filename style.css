@@ -107,11 +107,8 @@ input {
   .bg-img {
     height: 170vh;
   }
-  main {
-    display: none;
-  }
   .main-head {
-    color: #000;
+    color: rgb(255, 255, 255);
   }
   #lower-logo {
     grid-template-columns: repeat(4, 1fr);
