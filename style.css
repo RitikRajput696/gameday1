@@ -109,9 +109,9 @@ input {
   margin: 1.5rem 0 1rem 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1000px) {
   .grid-container {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
